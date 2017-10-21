@@ -36,7 +36,6 @@ class BaseRelDir(object):
 		name = self.join(name)
 		return Document(name)
 
-
 class RelDir(BaseRelDir):
 	def __init__(self, initial_dir, rel_dir='.'):
 		BaseRelDir.__init__(self, initial_dir)
